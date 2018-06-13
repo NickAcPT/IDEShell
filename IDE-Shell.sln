@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanelSuite", "DockPanel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellThemes", "ShellThemes\ShellThemes.csproj", "{F16AE565-F187-4FB3-9A1C-61B8E84B6BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPS-ThemeVS2012", "DockPanelSuite\DPS-ThemeVS2012.csproj", "{4ED4FDB5-9FD0-49E6-876D-1635F727C755}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPS-ThemeVS2015", "DockPanelSuite\DPS-ThemeVS2015.csproj", "{007D4AC8-948F-4816-86AD-B9D1343672C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{F16AE565-F187-4FB3-9A1C-61B8E84B6BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16AE565-F187-4FB3-9A1C-61B8E84B6BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16AE565-F187-4FB3-9A1C-61B8E84B6BC8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ED4FDB5-9FD0-49E6-876D-1635F727C755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ED4FDB5-9FD0-49E6-876D-1635F727C755}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ED4FDB5-9FD0-49E6-876D-1635F727C755}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ED4FDB5-9FD0-49E6-876D-1635F727C755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

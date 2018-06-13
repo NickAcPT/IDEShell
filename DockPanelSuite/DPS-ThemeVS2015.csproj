@@ -149,7 +149,7 @@
     <None Include="ThemeVS2015\Resources\vs2015light.vstheme.gz" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Visual Studio 2017\Projects\SkriptIDE\SkriptIDEThemes\SkriptIDEThemes.csproj">
+    <ProjectReference Include="..\ShellThemes\ShellThemes.csproj">
       <Project>{f16ae565-f187-4fb3-9a1c-61b8e84b6bc8}</Project>
       <Name>SkriptIDEThemes</Name>
     </ProjectReference>
