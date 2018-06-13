@@ -4,12 +4,15 @@
 //  
 
 using System.IO;
+using NickAc.IDE_Shell.Types;
 
 namespace NickAc.IDE_Shell.Files
 {
     public interface IFile
     {
         FileInfo FileInfo { get; set; }
+
+        IFileType FileType { get; set; }
 
         bool SaveFile();
 

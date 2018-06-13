@@ -4,6 +4,7 @@
 //  
 
 using System.IO;
+using NickAc.IDE_Shell.Types;
 
 namespace NickAc.IDE_Shell.Files
 {
@@ -19,17 +20,22 @@ namespace NickAc.IDE_Shell.Files
         }
 
         public FileInfo FileInfo { get; set; }
+
+        public IFileType FileType { get; set; }
+
         public bool SaveFile()
         {
             if (FileInfo == null)
             {
-                
+
             }
+            return false;
         }
 
         public bool SaveFileAs(FileInfo info)
         {
-            throw new System.NotImplementedException();
+            //Save the file
+            return false;
         }
     }
 }
