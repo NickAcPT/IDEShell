@@ -4,11 +4,12 @@
 //  
 
 using System.ComponentModel.Composition;
+using FastColoredTextBoxNS.Models.Syntaxes;
 
 namespace NickAc.IDE_Shell.Types
 {
-    [InheritedExport(typeof(IFileType))]
-    public interface IFileType
+    [InheritedExport(typeof(IFileType<>))]
+    public interface IFileType<T> where T: ILanguage
     {
         string[] FileExtensions { get; }
 

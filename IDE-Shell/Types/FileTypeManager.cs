@@ -6,6 +6,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
+using FastColoredTextBoxNS.Models.Syntaxes;
 
 namespace NickAc.IDE_Shell.Types
 {
@@ -20,8 +21,8 @@ namespace NickAc.IDE_Shell.Types
             Compose();    
         }
 
-        [ImportMany(typeof(IFileType))]
-        public List<IFileType> FileTypes { get; set; }
+        [ImportMany(typeof(IFileType<>))]
+        public List<IFileType<ILanguage>> FileTypes { get; set; }
 
         private void Compose()
         {
