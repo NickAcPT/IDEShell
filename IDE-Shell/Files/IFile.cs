@@ -11,6 +11,8 @@ namespace NickAc.IDE_Shell.Files
 {
     public interface IFile
     {
+        byte[] Contents { get; set; }
+
         FileInfo FileInfo { get; set; }
 
         IFileType<ILanguage> FileType { get; set; }

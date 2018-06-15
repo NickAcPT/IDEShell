@@ -20,18 +20,19 @@ namespace NickAc.IDE_Shell.Files
         {
         }
 
+        public byte[] Contents { get; set; }
+
         public FileInfo FileInfo { get; set; }
 
         public IFileType<ILanguage> FileType { get; set; }
 
-        public bool SaveFile()
+        public virtual bool SaveFile()
         {
             return false;
         }
 
-        public bool SaveFileAs(FileInfo info)
+        public virtual bool SaveFileAs(FileInfo info)
         {
-            //Save the file
             return false;
         }
     }

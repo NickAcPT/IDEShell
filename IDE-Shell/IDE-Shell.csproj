@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Files\IFile.cs" />
+    <Compile Include="Files\SaveableFile.cs" />
     <Compile Include="Files\ViewableFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShellForm.cs">
