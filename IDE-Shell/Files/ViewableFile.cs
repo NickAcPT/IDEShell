@@ -1,9 +1,10 @@
 ﻿//  
 // Copyright (c) NickAc. All rights reserved.
-// Licensed under the GPL v3 License. See LICENSE file in the project root for full license information.
+// Licensed under the LGPL v3 License. See LICENSE file in the project root for full license information.
 //  
 
 using System.IO;
+using FastColoredTextBoxNS.Models.Syntaxes;
 using NickAc.IDE_Shell.Types;
 
 namespace NickAc.IDE_Shell.Files
@@ -21,14 +22,10 @@ namespace NickAc.IDE_Shell.Files
 
         public FileInfo FileInfo { get; set; }
 
-        public IFileType FileType { get; set; }
+        public IFileType<ILanguage> FileType { get; set; }
 
         public bool SaveFile()
         {
-            if (FileInfo == null)
-            {
-
-            }
             return false;
         }
 

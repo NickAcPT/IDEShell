@@ -2,6 +2,7 @@
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
+using WeifenLuo.WinFormsUI.Docking.Helpers;
 
 namespace WeifenLuo.WinFormsUI.ThemeVS2012
 {

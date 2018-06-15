@@ -7,8 +7,8 @@ using System.Runtime.InteropServices;
 using System.Security.Permissions;
 using System.Diagnostics.CodeAnalysis;
 using NickAc.ModernUIDoneRight.Forms;
-using SkriptIDE.Forms;
-using SkriptIDE.Themes;
+using NickAc.IDE_Shell.Forms;
+using NickAc.IDE_Shell.Themes;
 using WeifenLuo.WinFormsUI.Docking.Helpers;
 using WeifenLuo.WinFormsUI.Docking.Win32;
 
