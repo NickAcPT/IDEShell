@@ -10,8 +10,14 @@ namespace NickAc.IDE_Shell.Files
 {
     public class SaveableFile : ViewableFile
     {
+        protected virtual void PreSave()
+        {
+
+        }
+
         public override bool SaveFile()
         {
+            PreSave();
             if (FileInfo == null)
                 return SaveFileAs(null);
 

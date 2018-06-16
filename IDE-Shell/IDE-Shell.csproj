@@ -63,6 +63,7 @@
     </Compile>
     <Compile Include="Types\IFileType.cs" />
     <Compile Include="Types\FileTypeManager.cs" />
+    <Compile Include="UiManager.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
