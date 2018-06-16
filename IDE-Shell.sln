@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPS-ThemeVS2015", "DockPane
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDE-Shell", "IDE-Shell\IDE-Shell.csproj", "{39AAF176-9387-46A6-BA9F-C7273EC071B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellTest", "ShellTest\ShellTest.csproj", "{D07BA4B4-1117-4878-B482-F8B1179DA97A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{39AAF176-9387-46A6-BA9F-C7273EC071B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39AAF176-9387-46A6-BA9F-C7273EC071B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39AAF176-9387-46A6-BA9F-C7273EC071B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07BA4B4-1117-4878-B482-F8B1179DA97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07BA4B4-1117-4878-B482-F8B1179DA97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07BA4B4-1117-4878-B482-F8B1179DA97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07BA4B4-1117-4878-B482-F8B1179DA97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
