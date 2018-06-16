@@ -4,12 +4,14 @@
 //  
 
 using System.ComponentModel.Composition;
+using Newtonsoft.Json;
 
 namespace NickAc.IDE_Shell.Config
 {
     [InheritedExport(typeof(IConfigSection))]
     public interface IConfigSection
-    {
+    {   
+        [JsonIgnore]
         string DisplayName { get; }
     }
 }
