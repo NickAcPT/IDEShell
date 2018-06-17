@@ -8,23 +8,12 @@ namespace NickAc.IDE_Shell.Forms
 {
     public partial class BaseThemedForm : ModernForm
     {
-        protected override void OnMouseDown(MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Left && e.Clicks == 2 && TextBarRectangle.Contains(e.Location))
-            {
-                WindowState = (WindowState == FormWindowState.Normal
-                    ? FormWindowState.Maximized
-                    : FormWindowState.Normal);
-                return;
-            }
-            base.OnMouseDown(e);
-        }
-
         private bool _shouldMakeBorderBig = true;
 
         public BaseThemedForm()
         {
             InitializeComponent();
+            TitlebarHeight = 31;
         }
 
         public bool ShouldMakeBorderBig
@@ -44,7 +33,8 @@ namespace NickAc.IDE_Shell.Forms
                 if (!ShouldMakeBorderBig) return base.DisplayRectangle;
                 var rect = base.DisplayRectangle;
                 const int borderSize = 7;
-                return Rectangle.FromLTRB(rect.Left + borderSize, rect.Top, rect.Right - borderSize, rect.Bottom - borderSize);
+                return Rectangle.FromLTRB(rect.Left + borderSize, rect.Top, rect.Right - borderSize,
+                    rect.Bottom - borderSize);
             }
         }
 
@@ -65,10 +55,10 @@ namespace NickAc.IDE_Shell.Forms
                 e.Graphics.FillRectangle(sb,
                     Rectangle.FromLTRB(DisplayRectangle.Right, TitlebarRectangle.Bottom, TitlebarRectangle.Right,
                         DisplayRectangle.Bottom));
-
+                
                 e.Graphics.FillRectangle(sb,
                     Rectangle.FromLTRB(TitlebarRectangle.Left, DisplayRectangle.Bottom, TitlebarRectangle.Right,
-                        Height - 1));
+                        Height - BorderOffset));
             }
         }
     }

@@ -40,7 +40,7 @@ namespace WeifenLuo.WinFormsUI.Docking.Win32
         SW_FORCEMINIMIZE    = 11,
         SW_MAX              = 11
     }
-
+    
     internal enum WindowStyles : uint
     {
         WS_OVERLAPPED       = 0x00000000,

@@ -30,7 +30,9 @@ namespace NickAc.IDE_Shell.Themes
 
         public void ApplyToModernForm(ModernForm frm)
         {
-            frm.ColorScheme = new ColorScheme(MainWindowColor, MainWindowSecondaryColor);
+            var scheme =
+                new ColorScheme(MainWindowColor, MainWindowSecondaryColor) {MouseDownColor = MainWindowSecondaryColor};
+            frm.ColorScheme = scheme;
         }
     }
 }

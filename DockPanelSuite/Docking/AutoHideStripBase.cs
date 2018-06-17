@@ -5,11 +5,41 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.InteropServices;
 
 namespace WeifenLuo.WinFormsUI.Docking
 {
     public abstract class AutoHideStripBase : Control
     {
+        
+        private static ushort LoWord(ulong l) { return (ushort)(l & 0xFFFF); }
+        private static ushort HiWord(ulong l) { return (ushort)((l >> 16) & 0xFFFF); }
+        private static ushort GetXLParam(ulong lp) { return LoWord(lp); }
+        private static ushort GetYLParam(ulong lp) { return HiWord(lp); }
+        [DllImport("user32.dll")]
+        private static extern int SendMessage(IntPtr hWnd, int wMsg, IntPtr wParam, IntPtr lParam);
+        private int MakeLParam(int p, int p_2) { return ((p_2 << 16) | (p & 0xFFFF)); }   
+
+        protected override void WndProc(ref Message m)
+        {
+            if (((m.Msg == (int)Win32.Msgs.WM_LBUTTONUP) || (m.Msg == (int)Win32.Msgs.WM_LBUTTONDOWN) || (m.Msg == (int)Win32.Msgs.WM_LBUTTONDBLCLK) || (m.Msg == (int)Win32.Msgs.WM_MOUSEMOVE)) && !DesignMode && Parent != null) {
+                if (HitTest() == null)
+                {
+                    var findForm = FindForm();
+
+                    var localPoint = PointToScreen(new Point(GetXLParam((ulong) m.LParam), GetYLParam((ulong) m.LParam)));
+                    var formPoint = findForm.PointToClient(localPoint);
+
+                    SendMessage(findForm.Handle, m.Msg, m.WParam, (IntPtr) MakeLParam(formPoint.X, formPoint.Y));
+                    findForm.Capture = true;
+                    Capture = false;
+                }
+                return;
+            }
+
+            base.WndProc(ref m);
+        }
+
         [SuppressMessage("Microsoft.Design", "CA1034:NestedTypesShouldNotBeVisible")]
         protected class Tab : IDisposable
         {
