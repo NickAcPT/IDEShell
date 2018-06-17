@@ -5,42 +5,53 @@
 
 using System;
 using System.Diagnostics;
-using System.Reflection;
 using System.Text;
+using System.Windows.Forms;
 
 namespace NickAc.IDE_Shell
 {
     public class UiManager
     {
-        private const string Str1 =
-            "80​111​119​101​114​101​100​32​98​121​32​73​68​69​45​83​104​101​108​108​32​67​111​109​109​117​110​105​116​121​32​69​100​105​116​105​111​110";
+        private const string MainClassEntryPoint = "Program";
 
-        private string _(string str)
-        {
-            var sstr = new StringBuilder();
-            foreach (var s in Str1.Split('​'))
-            {
-                sstr.Append((char) int.Parse(s));
-            }
+        protected internal static bool IsWatermarkEnabled { get; private set; }
 
-            return str;
-        }
+        public static string IdeName { get; private set; } = "";
 
-        public static void Init(bool watermark = true)
+        public static bool Initialized { get; private set; }
+
+        public static void Init(string ideName, bool watermark = true)
         {
             CheckProgramClass();
+            Initialized = true;
+            IsWatermarkEnabled = watermark;
+            IdeName = ideName;
+        }
+
+        public static void CheckIfInitialized()
+        {
+            if (!Initialized)
+                throw new Exception("The IDE wasn't initialized yet.");
         }
 
         private static string GetCallerName()
         {
-            var frame = new StackFrame(3);
-            var caller = frame.GetMethod().DeclaringType?.Name;
+            var caller = GetCaller();
+            return caller?.Name;
+        }
+
+        private static Type GetCaller()
+        {
+            var frame = new StackFrame(4);
+            var caller = frame.GetMethod().DeclaringType;
+            if (caller?.Name == MainClassEntryPoint && caller.IsSubclassOf(typeof(Control)))
+                throw new Exception("The Program.cs class shouldn't extend any WindowsForms Control.");
             return caller;
         }
 
         private static void CheckProgramClass()
         {
-            if (GetCallerName() != "Program")
+            if (GetCallerName() != MainClassEntryPoint)
                 throw new Exception("This method can only be called in the Program.cs class");
         }
     }

@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ModernUIDoneRight, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ModernUIDoneRight.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -74,6 +78,10 @@
     <ProjectReference Include="..\IDE-Shell\IDE-Shell.csproj">
       <Project>{39AAF176-9387-46A6-BA9F-C7273EC071B4}</Project>
       <Name>IDE-Shell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShellThemes\ShellThemes.csproj">
+      <Project>{F16AE565-F187-4FB3-9A1C-61B8E84B6BC8}</Project>
+      <Name>ShellThemes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

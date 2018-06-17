@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT4H22M5.5436186S" SolutionTotalViewTime="PT9H22M1.8964036S" SolutionTotalDebugTime="PT43M42.6617239S">
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT5H1M26.9468207S" SolutionTotalViewTime="PT10H8M46.9368312S" SolutionTotalDebugTime="PT50M45.3255758S">
   <FileVersion>
     <Major>1</Major>
     <Minor>0</Minor>
@@ -7,135 +7,131 @@
   <SolutionFolder>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell</SolutionFolder>
   <SessionTimeList />
   <LastSessionTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT3M17.5983128S" EditActiveTime="PT1M28.8336183S">
-      <ModifiedDate>2018-06-15T19:48:21.6328378+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
+    <DevTrackerDataItem ViewActiveTime="PT3M9.1382298S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Types\FileTypeManager.cs</Item>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\80A8301B-A549-4840-9F30-CBAB3D3F8CC3\97\ada6c260\AttributeUsageAttribute.cs</Item>
       <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-15T19:32:43.710708+01:00</CreatedDate>
+      <ProjectName />
+      <CreatedDate>2018-06-16T13:20:59.3025059+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT56.5882794S" EditActiveTime="PT15.2912536S">
-      <ModifiedDate>2018-06-15T21:04:12.4885745+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT7M2.6638519S" EditActiveTime="PT1M53.6230595S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T15:57:24.6846983+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M0.6897396S" EditActiveTime="PT42.9774408S">
+      <ModifiedDate>2018-06-16T21:21:45.7365187+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\Docking\FloatWindow.cs</Item>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\Docking\DockPanel.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DockPanelSuite.csproj</ProjectName>
-      <CreatedDate>2018-06-15T21:03:52.9950453+01:00</CreatedDate>
+      <CreatedDate>2018-06-16T21:14:47.898073+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M32.421186S" EditActiveTime="PT36.142354S">
-      <ModifiedDate>2018-06-16T00:49:03.9002959+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT1M28.4652753S" EditActiveTime="PT1.1306717S">
+      <ModifiedDate>2018-06-16T21:08:08.0727283+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\ShellTest.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:54:03.5303783+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M55.7407828S" EditActiveTime="PT15.1643924S">
+      <ModifiedDate>2018-06-16T13:45:31.1075692+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Config\IConfigSection.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-16T00:47:42.7082634+01:00</CreatedDate>
+      <CreatedDate>2018-06-16T13:18:58.8800168+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT17.5193524S" EditActiveTime="PT2M15.014412S">
-      <ModifiedDate>2018-06-16T00:18:58.5102613+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT41.4768504S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>0</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\A472C64C-4DD8-4280-8AE1-2CA6BB00788E\78\a805a746\JsonIgnoreAttribute.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T13:19:18.7575974+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M20.2289783S" EditActiveTime="PT41.9555191S">
+      <ModifiedDate>2018-06-16T20:59:10.300864+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\IFile.cs</Item>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\Program.cs</Item>
       <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-15T19:51:05.8493854+01:00</CreatedDate>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\ShellTest.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:54:30.7034115+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M28.8736196S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Types\IFileType.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-15T19:27:45.7283106+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M43.8473126S" EditActiveTime="PT7M24.8155845S">
-      <ModifiedDate>2018-06-16T00:28:36.6190472+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT8M1.8826963S" EditActiveTime="PT54.5569612S">
+      <ModifiedDate>2018-06-16T13:05:17.4915458+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\SaveableFile.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-16T00:14:53.7204012+01:00</CreatedDate>
+      <CreatedDate>2018-06-16T13:03:39.6276195+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT37.7933192S" EditActiveTime="PT58.6346533S">
-      <ModifiedDate>2018-06-15T21:03:11.9439234+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT6M24.5046071S" EditActiveTime="PT21M45.4180259S">
+      <ModifiedDate>2018-06-16T21:27:25.3600416+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\SkriptFile.cs</Item>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\ShellForm.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-15T21:02:11.0642302+01:00</CreatedDate>
+      <CreatedDate>2018-06-16T15:10:58.7294456+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M2.4433055S" EditActiveTime="PT38.3256467S">
-      <ModifiedDate>2018-06-16T00:19:13.379909+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT3.125576S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\80A8301B-A549-4840-9F30-CBAB3D3F8CC3\ca\ee9af2d9\Type.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T15:23:22.0141359+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16M27.8112514S" EditActiveTime="PT15M0.1791589S">
+      <ModifiedDate>2018-06-16T21:02:09.6028609+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\UiManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:28:13.0585708+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT11.9894535S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\ViewableFile.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
-      <CreatedDate>2018-06-15T19:50:20.7533266+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT6M11.7323016S" EditActiveTime="PT8.0292818S">
-      <ModifiedDate>2018-06-15T21:07:15.9072384+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\ThemeVS2012\VS2012AutoHideStrip.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DPS-ThemeVS2015.csproj</ProjectName>
-      <CreatedDate>2018-06-15T21:07:02.6371741+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M45.0874062S" EditActiveTime="PT7.5059764S">
-      <ModifiedDate>2018-06-15T21:06:05.9922687+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\ThemeVS2012\VS2012PaneIndicatorFactory.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DPS-ThemeVS2015.csproj</ProjectName>
-      <CreatedDate>2018-06-15T21:05:19.7179395+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT33.0735382S" EditActiveTime="PT1.4591487S">
-      <ModifiedDate>2018-06-15T21:04:53.4986233+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\ThemeVS2013\VS2013DockPaneCaption.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DPS-ThemeVS2015.csproj</ProjectName>
-      <CreatedDate>2018-06-15T21:04:45.0951214+01:00</CreatedDate>
-      <ViewedBy>User</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT45.6923314S" EditActiveTime="PT20.9647849S">
-      <ModifiedDate>2018-06-15T21:06:05.9441956+01:00</ModifiedDate>
-      <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\ThemeVS2013\VS2013DockPaneStrip.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DPS-ThemeVS2015.csproj</ProjectName>
-      <CreatedDate>2018-06-15T21:05:31.1891475+01:00</CreatedDate>
+      <CreatedDate>2018-06-16T13:05:19.439419+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
   </LastSessionTimeList>
@@ -159,6 +155,16 @@
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\SkriptIDE\SkriptInsight\SkriptInsight.csproj</ProjectName>
       <CreatedDate>2018-04-24T21:44:10.6471041+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M9.1382298S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\80A8301B-A549-4840-9F30-CBAB3D3F8CC3\97\ada6c260\AttributeUsageAttribute.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T13:20:59.3025059+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT4.8439497S" EditActiveTime="PT0S">
@@ -338,10 +344,10 @@
       <CreatedDate>2018-06-13T23:43:47.533145+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT43M42.6617239S" EditActiveTime="PT11M43.3505649S">
+    <DevTrackerDataItem ViewActiveTime="PT50M45.3255758S" EditActiveTime="PT13M36.9736244S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>11</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>12</ViewedCount>
       <Item>Debug Mode</Item>
       <ItemType>DebugModeItem</ItemType>
       <ProjectName />
@@ -397,6 +403,17 @@
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Projects - Visual Studio\SkriptIDE\DockPanelSuite\DockPanelSuite.csproj</ProjectName>
       <CreatedDate>2018-04-18T14:31:47.1683007+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M0.6897396S" EditActiveTime="PT42.9774408S">
+      <ModifiedDate>2018-06-16T21:21:45.7365187+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\Docking\DockPanel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DockPanelSuite.csproj</ProjectName>
+      <CreatedDate>2018-06-16T21:14:47.898073+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT23.8495245S" EditActiveTime="PT0S">
@@ -646,6 +663,17 @@
       <CreatedDate>2018-06-13T23:37:38.5479719+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M28.4652753S" EditActiveTime="PT1.1306717S">
+      <ModifiedDate>2018-06-16T21:08:08.0727283+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\ShellTest.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:54:03.5303783+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT4M40.1679499S" EditActiveTime="PT1M54.3873764S">
       <ModifiedDate>2018-04-14T20:14:46.9252025+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
@@ -678,11 +706,11 @@
       <CreatedDate>2018-04-26T00:39:24.3054152+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M32.3931443S" EditActiveTime="PT36.142354S">
-      <ModifiedDate>2018-06-16T00:49:03.9002959+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT5M28.1339271S" EditActiveTime="PT51.3067464S">
+      <ModifiedDate>2018-06-16T13:45:31.1075692+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Config\IConfigSection.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
@@ -917,6 +945,16 @@
       <CreatedDate>2018-04-18T18:57:45.982303+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT41.4768504S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>0</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\A472C64C-4DD8-4280-8AE1-2CA6BB00788E\78\a805a746\JsonIgnoreAttribute.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T13:19:18.7575974+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT2M37.3372368S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
@@ -1060,6 +1098,17 @@
       <CreatedDate>2018-04-17T22:31:50.5036285+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M20.2289783S" EditActiveTime="PT41.9555191S">
+      <ModifiedDate>2018-06-16T20:59:10.300864+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\ShellTest.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:54:30.7034115+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT11M57.3417304S" EditActiveTime="PT1M44.160312S">
       <ModifiedDate>2018-04-23T19:39:57.0719938+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
@@ -1164,22 +1213,22 @@
       <CreatedDate>2018-04-22T19:21:48.3916282+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3M43.8473126S" EditActiveTime="PT7M24.8155845S">
-      <ModifiedDate>2018-06-16T00:28:36.6190472+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT11M45.7300089S" EditActiveTime="PT8M19.3725457S">
+      <ModifiedDate>2018-06-16T13:05:17.4915458+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\SaveableFile.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
       <CreatedDate>2018-06-16T00:14:53.7204012+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT5M22.6210132S" EditActiveTime="PT2M8.9205921S">
-      <ModifiedDate>2018-06-14T00:15:43.4638081+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT11M47.1256203S" EditActiveTime="PT23M54.338618S">
+      <ModifiedDate>2018-06-16T21:27:25.3600416+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\ShellForm.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
@@ -1461,6 +1510,27 @@
       <CreatedDate>2018-06-13T23:44:45.6846496+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.125576S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\80A8301B-A549-4840-9F30-CBAB3D3F8CC3\ca\ee9af2d9\Type.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T15:23:22.0141359+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16M27.8112514S" EditActiveTime="PT15M0.1791589S">
+      <ModifiedDate>2018-06-16T21:02:09.6028609+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\UiManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:28:13.0585708+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT1M41.6473493S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
@@ -1492,11 +1562,11 @@
       <CreatedDate>2018-04-25T19:16:50.6795563+01:00</CreatedDate>
       <ViewedBy>User</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M48.6706991S" EditActiveTime="PT2M50.9641076S">
+    <DevTrackerDataItem ViewActiveTime="PT5M0.6601526S" EditActiveTime="PT2M50.9641076S">
       <ModifiedDate>2018-06-16T00:19:13.379909+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>
       <EditedCount>2</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\ViewableFile.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
@@ -1876,6 +1946,133 @@
     </DevTrackerDataItem>
   </TotalTimeList>
   <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT2M0.6897396S" EditActiveTime="PT42.9774408S">
+      <ModifiedDate>2018-06-16T21:21:45.7365187+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\Docking\DockPanel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\DockPanelSuite\DockPanelSuite.csproj</ProjectName>
+      <CreatedDate>2018-06-16T21:14:47.898073+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7M2.6638519S" EditActiveTime="PT1M53.6230595S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T15:57:24.6846983+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M20.2289783S" EditActiveTime="PT41.9555191S">
+      <ModifiedDate>2018-06-16T20:59:10.300864+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\Program.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\ShellTest.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:54:30.7034115+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M28.4652753S" EditActiveTime="PT1.1306717S">
+      <ModifiedDate>2018-06-16T21:08:08.0727283+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\Form1.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\ShellTest\ShellTest.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:54:03.5303783+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16M27.8112514S" EditActiveTime="PT15M0.1791589S">
+      <ModifiedDate>2018-06-16T21:02:09.6028609+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\UiManager.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:28:13.0585708+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3.125576S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\80A8301B-A549-4840-9F30-CBAB3D3F8CC3\ca\ee9af2d9\Type.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T15:23:22.0141359+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M24.5046071S" EditActiveTime="PT21M45.4180259S">
+      <ModifiedDate>2018-06-16T21:27:25.3600416+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\ShellForm.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T15:10:58.7294456+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M9.1382298S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\80A8301B-A549-4840-9F30-CBAB3D3F8CC3\97\ada6c260\AttributeUsageAttribute.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T13:20:59.3025059+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT41.4768504S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>0</ViewedCount>
+      <Item>C:\Users\User\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\A472C64C-4DD8-4280-8AE1-2CA6BB00788E\78\a805a746\JsonIgnoreAttribute.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-06-16T13:19:18.7575974+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M55.7407828S" EditActiveTime="PT15.1643924S">
+      <ModifiedDate>2018-06-16T13:45:31.1075692+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Config\IConfigSection.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T13:18:58.8800168+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT11.9894535S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\ViewableFile.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T13:05:19.439419+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT8M1.8826963S" EditActiveTime="PT54.5569612S">
+      <ModifiedDate>2018-06-16T13:05:17.4915458+01:00</ModifiedDate>
+      <ModifiedBy>User</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\Files\SaveableFile.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\User\Documents\Visual Studio 2017\Projects\IDE-Shell\IDE-Shell\IDE-Shell.csproj</ProjectName>
+      <CreatedDate>2018-06-16T13:03:39.6276195+01:00</CreatedDate>
+      <ViewedBy>User</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT3M32.4071668S" EditActiveTime="PT36.142354S">
       <ModifiedDate>2018-06-16T00:49:03.9002959+01:00</ModifiedDate>
       <ModifiedBy>User</ModifiedBy>

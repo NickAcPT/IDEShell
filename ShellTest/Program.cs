@@ -6,7 +6,7 @@ using NickAc.IDE_Shell;
 
 namespace ShellTest
 {
-    static class Program
+    public static class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -14,7 +14,7 @@ namespace ShellTest
         [STAThread]
         static void Main()
         {
-            UiManager.Init();
+            UiManager.Init("TestIDE");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

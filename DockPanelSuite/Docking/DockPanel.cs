@@ -47,6 +47,10 @@ namespace WeifenLuo.WinFormsUI.Docking
         
         public DockPanel()
         {
+            SetStyle(ControlStyles.ResizeRedraw, true);
+            SetStyle(ControlStyles.DoubleBuffer, true);
+            DoubleBuffered = true;
+
             ShowAutoHideContentOnHover = true;
 
             m_focusManager = new FocusManagerImpl(this);
@@ -736,14 +740,14 @@ namespace WeifenLuo.WinFormsUI.Docking
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            base.OnPaint(e);
-
             if (DockBackColor.ToArgb() == BackColor.ToArgb())
                 return;
 
             Graphics g = e.Graphics;
             SolidBrush bgBrush = new SolidBrush(DockBackColor);
             g.FillRectangle(bgBrush, ClientRectangle);
+
+            base.OnPaint(e);
         }
 
         internal void AddContent(IDockContent content)
