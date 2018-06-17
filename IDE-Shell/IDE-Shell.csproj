@@ -60,6 +60,11 @@
     <Compile Include="Files\IFile.cs" />
     <Compile Include="Files\SaveableFile.cs" />
     <Compile Include="Files\ViewableFile.cs" />
+    <Compile Include="MenuIcons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MenuIcons.resx</DependentUpon>
+    </Compile>
     <Compile Include="Menu\IBuildableMenuItemHolder.cs" />
     <Compile Include="Menu\IMenuItemHolder.cs" />
     <Compile Include="Menu\MenuBuilder.cs" />
@@ -70,6 +75,10 @@
     <Compile Include="Types\IFileType.cs" />
     <Compile Include="Types\FileTypeManager.cs" />
     <Compile Include="UiManager.cs" />
+    <EmbeddedResource Include="MenuIcons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MenuIcons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -112,6 +121,8 @@
       <Name>ShellThemes</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\new_file.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
