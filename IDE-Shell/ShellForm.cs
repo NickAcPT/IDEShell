@@ -6,8 +6,10 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using NickAc.IDE_Shell.Controls;
 using NickAc.IDE_Shell.Forms;
 using NickAc.IDE_Shell.Menu;
+using NickAc.IDE_Shell.Properties;
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace NickAc.IDE_Shell
@@ -24,16 +26,28 @@ namespace NickAc.IDE_Shell
             UiManager.CheckIfInitialized();
             InitDockPanel();
             InitMenu();
+            InitStatusBar();
             InitMenuItems();
             Controls.Add(DockPanel);
+            DockPanel.BringToFront();
         }
 
+        private void InitStatusBar()
+        {
+            StatusBar = new MouseThroughStatusStrip
+            {
+                Dock = DockStyle.Bottom,
+                SizingGrip = false
+            };
+            toolStripExtender.SetStyle(StatusBar, VisualStudioToolStripExtender.VsVersion.Vs2015,
+                DockPanel.Theme);
+            Controls.Add(StatusBar);
+        }
 
         private void InitMenu()
         {
             MainMenuStrip = new MenuStrip();
-            toolStripExtender.SetStyle(MainMenuStrip, VisualStudioToolStripExtender.VsVersion.Vs2015,
-                DockPanel.Theme);
+            toolStripExtender.SetStyle(MainMenuStrip, VisualStudioToolStripExtender.VsVersion.Vs2015, DockPanel.Theme);
             Controls.Add(MainMenuStrip);
         }
 
@@ -47,12 +61,18 @@ namespace NickAc.IDE_Shell
                 .BuildMenu();
 
             GetMenu("&New")
-                .AddItem("&Project")
-                .AddItem("&File")
+                .AddItem("&Project...", out var newProject)
+                .AddItem("&File...", out var newFile)
                 .BuildMenu();
+            
+            //Icons
+            newFile.Image = MenuIcons.new_file_dark;
+            newProject.Image = MenuIcons.new_project_dark;
         }
 
         public Guid UniqueId { get; set; }
+        
+        protected StatusStrip StatusBar { get; private set; }
 
         protected DockPanel DockPanel { get; private set; }
 

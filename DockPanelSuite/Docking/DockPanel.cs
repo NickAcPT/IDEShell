@@ -102,7 +102,6 @@ namespace WeifenLuo.WinFormsUI.Docking
 
         protected override void WndProc(ref Message m)
         {
-            
             if (Contents.Count == 0 && ((m.Msg == (int)Win32.Msgs.WM_LBUTTONUP) || (m.Msg == (int)Win32.Msgs.WM_LBUTTONDOWN) || (m.Msg == (int)Win32.Msgs.WM_LBUTTONDBLCLK) || (m.Msg == (int)Win32.Msgs.WM_MOUSEMOVE)) && !DesignMode && Parent != null) {
                 var findForm = FindForm();
 
@@ -110,7 +109,7 @@ namespace WeifenLuo.WinFormsUI.Docking
                 var formPoint = findForm.PointToClient(localPoint);
 
                 SendMessage(findForm.Handle, m.Msg, m.WParam, (IntPtr) MakeLParam(formPoint.X, formPoint.Y));
-                findForm.Capture = false;
+                findForm.Capture = true;
                 Capture = false;
                 return;
             }

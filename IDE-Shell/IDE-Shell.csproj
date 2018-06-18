@@ -34,8 +34,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ModernUIDoneRight">
-      <HintPath>..\DockPanelSuite\bin\Debug\ModernUIDoneRight.dll</HintPath>
+    <Reference Include="ModernUIDoneRight, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ModernUIDoneRight.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
@@ -89,9 +90,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ShellForm.resx">
-      <DependentUpon>ShellForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -120,6 +118,9 @@
       <Project>{F16AE565-F187-4FB3-9A1C-61B8E84B6BC8}</Project>
       <Name>ShellThemes</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_project_dark.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\new_file.png" />

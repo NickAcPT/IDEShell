@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using NickAc.IDE_Shell;
 using System.Windows.Forms;
@@ -8,7 +9,9 @@ namespace NickAc.IDE_Shell.Menu
 {
 	public class MenuBuilder : IBuildableMenuItemHolder
 	{
-        //Static menu finder
+	    private const int SubItemPadding = 10;
+
+	    //Static menu finder
 	    private static Dictionary<Guid, List<ToolStripItem>> _items = new Dictionary<Guid, List<ToolStripItem>>();
 
 	    public MenuBuilder(ShellForm owner, ToolStripItem parentItem)
@@ -29,7 +32,7 @@ namespace NickAc.IDE_Shell.Menu
 
 	        var first = _items[owner.UniqueId].FirstOrDefault(c => c.Text == name);
 	        
-	        return new MenuBuilder(owner, first ?? new ToolStripMenuItem(name));
+	        return new MenuBuilder(owner, first ?? GetItemForString(name));
 	    }
 
 	    private static void ShellMenuOwner_FormClosed(object sender, EventArgs e)
@@ -97,7 +100,9 @@ namespace NickAc.IDE_Shell.Menu
 	    {
             if (i == "-")
                 return new ToolStripSeparator();
-	        return new ToolStripMenuItem(i);
+	        var menuItem = new ToolStripMenuItem(i);
+            
+	        return menuItem;
 	    }
 
 	    // Executing functions

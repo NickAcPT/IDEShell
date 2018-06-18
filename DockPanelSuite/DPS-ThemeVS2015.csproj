@@ -41,7 +41,7 @@
   <ItemGroup>
     <Reference Include="ModernUIDoneRight, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Visual Studio 2017\Projects\ModernUIDoneRight\ModernUIDoneRight\bin\Debug\ModernUIDoneRight.dll</HintPath>
+      <HintPath>..\ModernUIDoneRight.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

@@ -38,6 +38,13 @@ namespace NickAc.IDE_Shell.Forms
             }
         }
 
+        protected override void WndProc(ref Message m)
+        {
+            const int wmParentnotify = 0x0210;
+            if (!Focused && m.Msg == wmParentnotify) Activate();
+            base.WndProc(ref m);
+        }
+
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
@@ -55,7 +62,7 @@ namespace NickAc.IDE_Shell.Forms
                 e.Graphics.FillRectangle(sb,
                     Rectangle.FromLTRB(DisplayRectangle.Right, TitlebarRectangle.Bottom, TitlebarRectangle.Right,
                         DisplayRectangle.Bottom));
-                
+
                 e.Graphics.FillRectangle(sb,
                     Rectangle.FromLTRB(TitlebarRectangle.Left, DisplayRectangle.Bottom, TitlebarRectangle.Right,
                         Height - BorderOffset));

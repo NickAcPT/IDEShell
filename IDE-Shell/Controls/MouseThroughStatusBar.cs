@@ -26,10 +26,19 @@ namespace NickAc.IDE_Shell.Controls
             Point p = PointToClient(Cursor.Position);
             return GetItemAt(p) != null;
         }
+        
+        private static ushort LoWord(ulong l) { return (ushort)(l & 0xFFFF); }
+        private static ushort HiWord(ulong l) { return (ushort)((l >> 16) & 0xFFFF); }
+        private static ushort GetXLParam(ulong lp) { return LoWord(lp); }
+        private static ushort GetYLParam(ulong lp) { return HiWord(lp); }
 
         [DllImport("user32.dll")]
-        public static extern int SendMessage(IntPtr hWnd, int wMsg, IntPtr wParam, IntPtr lParam);
+        private static extern int SendMessage(IntPtr hWnd, int wMsg, IntPtr wParam, IntPtr lParam);
 
+        private int MakeLParam(int p, int p_2)
+        {
+            return ((p_2 << 16) | (p & 0xFFFF));
+        }   
         protected override void WndProc(ref Message m)
         {
             const int wmMousemove = 512;
@@ -39,7 +48,12 @@ namespace NickAc.IDE_Shell.Controls
 
             if (((m.Msg == wmLbuttonup) || (m.Msg == wmLbuttondown) || (m.Msg == wmLbuttondblclk) || (m.Msg == wmMousemove)) && !DesignMode && Parent != null) {
                 if (!ShouldSelectItem()) {
-                    SendMessage(Parent.Handle, m.Msg, m.WParam, m.LParam);
+                    var findForm = FindForm();
+
+                    var localPoint = PointToScreen(new Point(GetXLParam((ulong) m.LParam), GetYLParam((ulong) m.LParam)));
+                    var formPoint = findForm.PointToClient(localPoint);
+
+                    SendMessage(findForm.Handle, m.Msg, m.WParam, (IntPtr) MakeLParam(formPoint.X, formPoint.Y));
                     Parent.Capture = true;
                     Capture = false;
                     return;
